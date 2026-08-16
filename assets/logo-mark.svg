@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Meridian Systems mark">
-  <circle cx="32" cy="32" r="30" fill="#1C1917"/>
-  <circle cx="32" cy="32" r="26" fill="none" stroke="#F6F1E7" stroke-width="0.75" stroke-dasharray="0.5 4" opacity="0.5"/>
-  <path d="M32,8 L39.07,24.93 L56,32 L39.07,39.07 L32,56 L24.93,39.07 L8,32 L24.93,24.93 Z" fill="#B8461F"/>
-  <circle cx="32" cy="32" r="3.2" fill="#F6F1E7"/>
+  <circle cx="32" cy="32" r="30" fill="#1B1F22"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#F1F2EC" stroke-width="0.75" stroke-dasharray="0.5 4" opacity="0.5"/>
+  <path d="M32,8 L39.07,24.93 L56,32 L39.07,39.07 L32,56 L24.93,39.07 L8,32 L24.93,24.93 Z" fill="#9C7A2E"/>
+  <circle cx="32" cy="32" r="3.2" fill="#F1F2EC"/>
 </svg>
