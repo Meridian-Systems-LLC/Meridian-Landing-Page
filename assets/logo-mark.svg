@@ -1,19 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Meridian Systems mark">
-  <defs>
-    <linearGradient id="markGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#175A8C"/>
-      <stop offset="100%" stop-color="#1FB6A5"/>
-    </linearGradient>
-    <clipPath id="markClip">
-      <circle cx="32" cy="32" r="27"/>
-    </clipPath>
-  </defs>
-  <circle cx="32" cy="32" r="27" fill="url(#markGrad)"/>
-  <g clip-path="url(#markClip)" stroke="#F4FAF9" stroke-width="1.6" fill="none" opacity="0.9">
-    <ellipse cx="32" cy="32" rx="10.5" ry="27"/>
-    <ellipse cx="32" cy="32" rx="20" ry="27"/>
-    <line x1="5" y1="32" x2="59" y2="32"/>
-  </g>
-  <line x1="9" y1="16" x2="55" y2="48" stroke="#F4FAF9" stroke-width="2.4" stroke-linecap="round"/>
-  <circle cx="55" cy="48" r="3.4" fill="#F4FAF9"/>
+  <circle cx="32" cy="32" r="30" fill="#1C1917"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#F6F1E7" stroke-width="0.75" stroke-dasharray="0.5 4" opacity="0.5"/>
+  <path d="M32,8 L39.07,24.93 L56,32 L39.07,39.07 L32,56 L24.93,39.07 L8,32 L24.93,24.93 Z" fill="#B8461F"/>
+  <circle cx="32" cy="32" r="3.2" fill="#F6F1E7"/>
 </svg>

@@ -7,7 +7,12 @@ A simple, responsive one-page site for Meridian Systems: hero, offerings, proces
 - `index.html` — page content
 - `css/styles.css` — all styling (colors/fonts defined as CSS variables at the top)
 - `js/main.js` — mobile nav, scroll reveal, sticky header, estimate form
-- `assets/logo.svg`, `assets/logo-white.svg`, `assets/logo-mark.svg` — logo (color, white-on-dark, and icon-only/favicon versions)
+- `assets/logo.svg`, `assets/logo-white.svg`, `assets/logo-mark.svg` — logo (ink-on-paper, paper-on-ink, and icon-only/favicon versions), built around a compass-star mark
+- `assets/topo-hero.svg`, `assets/compass-rose.svg` — the topographic-contour hero illustration and compass-rose graphic used in the Why Us section
+
+## Design
+
+Warm, editorial palette (ink `#1C1917`, paper `#F6F1E7`, rust `#B8461F`) instead of a generic blue/teal SaaS look, paired with a serif display face (Fraunces) over a plain sans body (IBM Plex Sans). The offerings section uses a numbered ledger list instead of icon cards, and the process/why-us sections lean on a compass and topographic-contour motif tying back to "Meridian." All colors and fonts are CSS variables at the top of `css/styles.css` if you want to retheme.
 
 ## Before you launch
 
