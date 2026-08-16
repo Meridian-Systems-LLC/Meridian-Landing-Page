@@ -12,7 +12,7 @@ A simple, responsive one-page site for Meridian Systems: hero, offerings, proces
 
 ## Design
 
-Warm, editorial palette (ink `#1C1917`, paper `#F6F1E7`, rust `#B8461F`) instead of a generic blue/teal SaaS look, paired with a serif display face (Fraunces) over a plain sans body (IBM Plex Sans). The offerings section uses a numbered ledger list instead of icon cards, and the process/why-us sections lean on a compass and topographic-contour motif tying back to "Meridian." All colors and fonts are CSS variables at the top of `css/styles.css` if you want to retheme.
+Charcoal, cool paper, and brass palette (ink `#1B1F22`, paper `#F1F2EC`, brass `#9C7A2E`), paired with a serif display face (Fraunces) over a plain sans body (IBM Plex Sans). The offerings section uses a numbered ledger list instead of icon cards. The hero and Why Us illustrations are technical schematics (patch panel, rack elevation, network topology) reflecting structured cabling / data & telecom infrastructure work. All colors and fonts are CSS variables at the top of `css/styles.css` if you want to retheme.
 
 ## Before you launch
 
