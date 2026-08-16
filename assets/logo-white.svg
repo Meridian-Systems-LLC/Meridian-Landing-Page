@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" role="img" aria-label="Meridian Systems">
+  <defs>
+    <linearGradient id="lockupGradW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E85C4"/>
+      <stop offset="100%" stop-color="#1FB6A5"/>
+    </linearGradient>
+    <clipPath id="lockupClipW">
+      <circle cx="30" cy="30" r="25"/>
+    </clipPath>
+  </defs>
+  <circle cx="30" cy="30" r="25" fill="url(#lockupGradW)"/>
+  <g clip-path="url(#lockupClipW)" stroke="#F4FAF9" stroke-width="1.5" fill="none" opacity="0.9">
+    <ellipse cx="30" cy="30" rx="9.5" ry="25"/>
+    <ellipse cx="30" cy="30" rx="18.5" ry="25"/>
+    <line x1="5" y1="30" x2="55" y2="30"/>
+  </g>
+  <line x1="8.5" y1="15" x2="51" y2="45" stroke="#F4FAF9" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="51" cy="45" r="3.1" fill="#F4FAF9"/>
+
+  <text x="68" y="30" font-family="'Poppins','Segoe UI',sans-serif" font-size="21" font-weight="700" fill="#F4FAF9" letter-spacing="0.5">MERIDIAN</text>
+  <text x="68" y="47" font-family="'Poppins','Segoe UI',sans-serif" font-size="13" font-weight="500" fill="#5EEAD4" letter-spacing="4">SYSTEMS</text>
+</svg>
