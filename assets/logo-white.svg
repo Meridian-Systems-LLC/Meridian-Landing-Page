@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 60" role="img" aria-label="Meridian Systems">
+  <circle cx="28" cy="30" r="26" fill="#F6F1E7"/>
+  <circle cx="28" cy="30" r="22.5" fill="none" stroke="#1C1917" stroke-width="0.6" stroke-dasharray="0.5 3.5" opacity="0.35"/>
+  <path d="M28,9 L34.14,23.86 L49,30 L34.14,36.14 L28,51 L21.86,36.14 L7,30 L21.86,23.86 Z" fill="#C9612F"/>
+  <circle cx="28" cy="30" r="2.7" fill="#1C1917"/>
+
+  <text x="66" y="28" font-family="'Fraunces','Georgia',serif" font-size="21" font-weight="600" fill="#F6F1E7" letter-spacing="0.3">Meridian</text>
+  <text x="66" y="45" font-family="'IBM Plex Sans','Segoe UI',sans-serif" font-size="11" font-weight="500" fill="#C9612F" letter-spacing="4">SYSTEMS</text>
+</svg>
