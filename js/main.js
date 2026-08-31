@@ -49,7 +49,7 @@ if ('IntersectionObserver' in window) {
 }
 
 // Estimate form -> mailto submission
-const CONTACT_EMAIL = 'Austinsilaghi@outlook.com';
+const CONTACT_EMAIL = 'asilaghi@meridiandatacom.com';
 const form = document.getElementById('estimateForm');
 form.addEventListener('submit', (e) => {
   e.preventDefault();

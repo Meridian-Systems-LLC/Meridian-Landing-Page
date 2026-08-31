@@ -14,14 +14,12 @@ A simple, responsive one-page site for Meridian Systems: hero, offerings, proces
 
 Charcoal, cool paper, and brass palette (ink `#1B1F22`, paper `#F1F2EC`, brass `#9C7A2E`), paired with a serif display face (Fraunces) over a plain sans body (IBM Plex Sans). The offerings section uses a numbered ledger list instead of icon cards. The hero and Why Us illustrations are technical schematics (patch panel, rack elevation, network topology) reflecting structured cabling / data & telecom infrastructure work. All colors and fonts are CSS variables at the top of `css/styles.css` if you want to retheme.
 
-## Before you launch
-
-A few things are placeholders — search-and-replace before going live:
-
-- **Phone number** (`(555) 010-2020`) in `index.html`, contact section
-- **Service area** (`Your City & Surrounding Region`) in `index.html`, contact section
-- **Email** is set to `Austinsilaghi@outlook.com` — update if that's not the right inbox
-- **Business hours**, offering copy, and process steps can be edited freely to match your actual services
+## Launch status
+Real contact info is filled in as of 2026-08-31: phone `(947) 622-4250`,
+service area (Metro Detroit, Ann Arbor, Saline, Rochester Hills, Troy &
+surrounding), email `asilaghi@meridiandatacom.com`. Business hours,
+offering copy, and process steps are still the original scaffold text —
+edit freely in `index.html` to match your actual services.
 
 The estimate form currently opens the visitor's email client with a pre-filled message (no backend required). To collect submissions server-side instead, swap the `submit` handler in `js/main.js` for a form service (e.g. Formspree) or your own backend endpoint.
 
