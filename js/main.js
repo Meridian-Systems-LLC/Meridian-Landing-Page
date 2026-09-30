@@ -60,18 +60,20 @@ form.addEventListener('submit', (e) => {
 
   const data = new FormData(form);
   const name = data.get('name');
+  const company = data.get('company') || 'Not provided';
   const email = data.get('email');
   const phone = data.get('phone') || 'Not provided';
   const service = data.get('service');
   const details = data.get('details') || 'None provided';
 
-  const subject = `Estimate Request from ${name}`;
+  const subject = `Checkup / quote request from ${name}`;
   const body =
     `Name: ${name}\n` +
+    `Company: ${company}\n` +
     `Email: ${email}\n` +
     `Phone: ${phone}\n` +
-    `Service Needed: ${service}\n\n` +
-    `Project Details:\n${details}`;
+    `Help with: ${service}\n\n` +
+    `Details:\n${details}`;
 
   window.location.href =
     `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
