@@ -66,7 +66,7 @@ form.addEventListener('submit', (e) => {
   const service = data.get('service');
   const details = data.get('details') || 'None provided';
 
-  const subject = `Checkup / quote request from ${name}`;
+  const subject = `Scoping call / quote request from ${name}`;
   const body =
     `Name: ${name}\n` +
     `Company: ${company}\n` +
